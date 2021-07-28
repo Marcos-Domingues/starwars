@@ -68,8 +68,15 @@ export default {
 </script>
 <style>
 #outside-modal {
-  position: absolute;
-  top: 40%;
-  left: 43%;
+    position: fixed;
+    top: 40%;
+    left: 43%;
+    min-width: 320px ;
+}
+
+@media only screen and (max-width: 768px) {
+    #outside-modal {
+        left: 30%;
+    }
 }
 </style>
