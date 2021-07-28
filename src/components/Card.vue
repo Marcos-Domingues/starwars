@@ -42,6 +42,7 @@ export default {
   color: #fff;
   cursor: pointer;
 }
+
 .row{
   display: flex;
   justify-content: center;

@@ -74,6 +74,10 @@ export default {
     min-width: 320px ;
 }
 
+.modal-footer{
+  height: 75px;
+}
+
 @media only screen and (max-width: 768px) {
     #outside-modal {
         left: 30%;
